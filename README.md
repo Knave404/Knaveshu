@@ -1,42 +1,3 @@
-```js
-class Knaveshu {
-  constructor(...options) {
-    this.height = "1.81"
-    this.weight = "59 :P"
-    this.type = "human"
-    this.job = "developer"
-    this.sex = "male"
-  }
-}
-
-class CreateMan extends Knaveshu {
-  constructor(...options) {
-    super(options);
-  }
-  
-  private _eating() {
-    void "eating 🍔 🍟 🍗 🥤"
-  }
-  
-  private _coding() {
-    void "coding... ❤️"
-  }
-  
-  private _sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)) }
-  
-  async createDay() {
-    this._eating()
-    this._coding()
-    await this._sleep(18000000)
-    
-    this.createDay()
-  }
-  
-}
-
-let Knaveshu = new CreateMan()
-Knaveshu.createDay();
-```
 <img src="https://komarev.com/ghpvc/?username=Knaveshu&label=Ziyaretçi%20Sayısı&color=552b75" alt="Knaveshu" />
 
 [![Discord Presence](https://lanyard-profile-readme.vercel.app/api/919085098660425728?hideDiscrim=true)](https://discord.com/users/919085098660425728)
@@ -51,7 +12,6 @@ Knaveshu.createDay();
   ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
   ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
   ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
-  ![Bootstrap](https://img.shields.io/badge/-Bootstrap-333333?style=flat&logo=bootstrap&logoColor=563D7C)
   ![Node.js](https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js)
   ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
 - 🛢 &nbsp;
@@ -60,7 +20,6 @@ Knaveshu.createDay();
 - ⚙️ &nbsp;
   ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
   ![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
-  ![Markdown](https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown)
 - 🔧 &nbsp;
   ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
   ![RStudio](https://img.shields.io/badge/-RStudio-333333?style=flat&logo=rstudio)
